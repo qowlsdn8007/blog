@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'Mediumish',
-  base: '/vuepress-theme-mediumish/',
+  title: 'qowlsdn8007',
+  base: '/',
   description: 'Blog example for Mediumish theme with VuePress',
   logo: './assets/img/logo.png',
   theme: require.resolve('../../'),
@@ -79,7 +79,7 @@ module.exports = {
     },
 
     sitemap: {
-      hostname: 'https://github.com/wowthemesnet/vuepress-theme-mediumish/'
+      hostname: 'https://github.com/qowlsdn8007.github.io/'
     },
     comment: {
       service: 'disqus',

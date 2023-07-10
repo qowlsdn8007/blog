@@ -42,7 +42,7 @@ export default {
     exact() {
       if (this.$site.locales) {
         return Object.keys(this.$site.locales).some(
-          rootLink => rootLink === this.normalizedlink
+          (rootLink) => rootLink === this.normalizedlink
         )
       }
       return this.normalizedlink === '/'
